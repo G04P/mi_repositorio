@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.img-fondo {
+  background-image: url(/img/fondo\ maderanegra.jpg);
+}
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+.container {
+  max-width: 1350;
+  margin: 0 auto;
+  justify-content: center;
+}
+ul {
+  margin: 1px;
+  padding: 1px;
+  list-style-type: none;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 0 1 300px;
+  gap: 5rem;
+}
+
+.texto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 4 00;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.barra-navegacion {
+  margin: 3rem 5rem;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.nuestros-productos {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.card {
+  color: white;
+  background-size: cover;
+  padding: 1rem;
+  margin: 1rem1;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.card:hover .producto-info {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+article img {
+  order: 0;
+  align-self: auto;
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.producto-precio,
+.producto-nombre {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.producto-precio {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.producto-nombre {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.footer {
+  padding: 3.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+.img {
+  margin: 2rem;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+.amoung:hover,
+.amoung:focus-within {
+  transform: scale(1.05);
+}
