@@ -6,7 +6,7 @@ header {
   justify-content: space-between;
 }
 .img-fondo {
-  background-image: url(/img/fondo-madera.jpg);
+  background-image: url(/img/fondo-maderanegra.jpg);
 }
 .contenedor {
   max-width: 120rem;
@@ -69,7 +69,7 @@ article {
   color: white;
   background-size: cover;
   padding: 1rem;
-  margin: 1rem1;
+  margin: 1rem;
   max-width: 280px;
   border-radius: 1rem;
   overflow: hidden;
