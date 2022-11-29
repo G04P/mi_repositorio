@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   margin: 1rem;
   padding: 1rem;
@@ -10,9 +15,8 @@ header {
   gap: 5rem;
 }
 nav ul {
-  margin-top: 3rem;
-  margin-left: 5rem;
-  padding-top: 0%;
+  margin: 2rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -42,7 +46,7 @@ nav ul {
   color: white;
 }
 .img-fondo {
-  background-image: url(/img/fondoMaderaNegra.jpg);
+  background-image: url(../img/fondoMaderaNegra.jpg);
 }
 footer {
   padding: 3.5rem;
@@ -50,4 +54,8 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20rem;
+}
+.img {
+  margin: 1rem;
+  padding: 1px;
 }
