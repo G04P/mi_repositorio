@@ -3,28 +3,23 @@
   margin: 0;
   padding: 0;
 }
-
 header {
   display: flex;
   justify-content: space-between;
 }
-
 .img-fondo {
   background-image: url(img/fondoMaderaNegra.jpg);
 }
-
 .contenedor {
   max-width: 120rem;
   margin: 0 auto;
   justify-content: center;
 }
-
 .container {
   max-width: 1350;
   margin: 0 auto;
   justify-content: center;
 }
-
 ul {
   margin: auto;
   padding: auto;
@@ -37,12 +32,10 @@ ul {
   gap: 2rem;
   background-color: #0f0f0f;
 }
-
 li {
   position: relative;
   width: auto;
 }
-
 .barra-navegacion a {
   display: block;
   font: bold 15px/20px sans-serif;
@@ -55,7 +48,6 @@ li {
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
-
 .barra-navegacion li:hover a {
   background-color: gray;
 }
@@ -83,13 +75,11 @@ li {
   text-align: center;
   text-transform: uppercase;
 }
-
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
-
 article {
   display: flex;
   flex-direction: column;
@@ -97,7 +87,6 @@ article {
   border-radius: 1rem;
   padding: 2rem;
 }
-
 .card {
   color: white;
   background-size: cover;
@@ -108,7 +97,6 @@ article {
   overflow: hidden;
   transition: transform 500ms ease;
 }
-
 .card:hover,
 .card:focus-within {
   transform: scale(1.05);
@@ -118,12 +106,10 @@ article {
   transform: translateY(0);
   transition-delay: 500ms;
 }
-
 article img {
   order: 0;
   align-self: auto;
 }
-
 .button {
   cursor: pointer;
   display: inline-block;
@@ -135,7 +121,6 @@ article img {
   border-radius: 1rem;
   transition: all 0.5s ease;
 }
-
 .button:hover {
   background-color: white;
   color: black;
@@ -148,17 +133,14 @@ article img {
   text-transform: uppercase;
   text-align: center;
 }
-
 .producto-precio {
   font-size: 2.5rem;
   font-weight: 500;
 }
-
 .producto-nombre {
   font-size: 2rem;
   font-weight: 800;
 }
-
 .footer {
   padding: 3.5rem;
   padding-bottom: 2rem;
@@ -166,16 +148,12 @@ article img {
   justify-content: center;
   gap: 20rem;
 }
-
 .img {
   margin: 2rem;
   padding: 1rem;
   padding-left: 1rem;
 }
-
 .amoung:hover,
 .amoung:focus-within {
   transform: scale(1.05);
 }
-
-/*# sourceMappingURL=style.css.map */
