@@ -13,23 +13,40 @@ header {
   margin: 0 auto;
   justify-content: center;
 }
-nav ul {
-  margin: 1px;
-  padding: 5.5rem;
+ul {
+  margin: auto;
+  padding: auto;
   list-style-type: none;
   line-height: 1.5;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex: 0 1 300px;
-  gap: 15rem;
-  margin-left: 5rem;
+  gap: 2rem;
+  background-color: #0f0f0f;
+}
+.barra-navegacion a {
+  display: block;
+  font: bold 15px/20px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.barra-navegacion li:hover a {
+  background-color: gray;
 }
 .barra-navegacion {
+  margin: 0;
+  text-align: center;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
-  font-weight: 400;
+  gap: 1rem;
 }
 .texto {
   font-family: Arial, Helvetica, sans-serif;

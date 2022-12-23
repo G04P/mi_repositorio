@@ -12,12 +12,12 @@
 }
 h3 {
   margin: 2rem;
-  padding: 5rem;
+  padding: 0.5rem;
   color: white;
   text-align: center;
 }
 .footer {
-  padding: 2rem;
+  padding: 1.9rem;
   padding-bottom: 1rem;
   display: flex;
   justify-content: center;
