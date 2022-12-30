@@ -7,10 +7,10 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.img-fondo {
+.contenedor {
   background-image: url(img/fondoMaderaNegra.jpg);
 }
-.contenedor {
+.contenedor-main {
   max-width: 120rem;
   margin: 0 auto;
   justify-content: center;
